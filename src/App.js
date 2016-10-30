@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import UserList from './containers/users-list'
+import ActiveUserDetails from './containers/user-details'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <UserList />
           <hr />
           <h2>User Details:</h2>
+          <ActiveUserDetails/>
         </div>
       </div>
     );
